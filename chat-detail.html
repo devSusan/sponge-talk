@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chat-detail - Sponge Talk</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="chat-screen">
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span class="status-bar__service">No Service</span>
+            <i class="fa-solid fa-wifi fa-sm"></i>
+        </div>
+        <div class="status-bar__column">
+            <span class="status-bar__clock">18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span class="status-bar__battary">100%</span>
+            <i class="fa-solid fa-battery-full fa-lg"></i>
+            <i class="fa-solid fa-bolt fa-xs"></i>
+        </div>
+    </div>
+    <header class="chat-detail-header">
+        <div class="chat-detail-header__column">
+            <a href="chat.html"><i class="fa-solid fa-angle-left fa-2x"></i></a>
+        </div>
+        <div class="chat-detail-header__column">
+            <h1 class="chat-detail-name">Mr.Krabs</h1>
+        </div>
+        <div class="chat-detail-header__column">
+            <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+        </div>
+    </header>
+    <main class="main-screen chat-main">
+        <div class="timestamp">Tuesday, Mar 1, 2022</div>
+        <div class="msg-row--from">
+            <img src="img/friend_4.jpg">
+            <div class="msg-row--from__content">
+                <span>Mr.Krabs</span>
+                <div class="msg-info">
+                    <span class="msg-balloon">The money is always right!</span>
+                    <span class="msg-time">21:37</span>
+                </div>
+            </div>
+        </div>
+        <div class="msg-row--to">
+            <div class="msg-row--to__content">
+                <div class="msg-info">
+                    <span class="msg-balloon">ok</span>
+                    <span class="msg-time">21:37</span>
+                </div>
+            </div>
+        </div>
+    </main>
+    <form class="inputArea">
+        <div class="inputArea__column">
+            <i class="far fa-plus-square fa-lg" aria-hidden="true"></i>
+        </div>
+        <div class="inputArea__column">
+            <input type="text" placeholder="Write a message..."> 
+            <i class="far fa-smile-wink fa-lg" aria-hidden="true"></i>
+            <button>
+                <i class="fas fa-arrow-up" aria-hidden="true"></i>   
+            </button>
+        </div>
+    </form>
+    <script src="https://kit.fontawesome.com/22a1e389fd.js" crossorigin="anonymous"></script>
+</body>
+</html>

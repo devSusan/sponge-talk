@@ -1,0 +1,33 @@
+.friends-screen{
+    padding:0px var(--horizontal-space);
+}
+.friends-display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--sponge-pink);
+    padding:15px 0;
+    color: var(--sponge-gray);
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.friends-display span{
+    margin: 0 5px;
+}
+
+.friends-list__title{
+    border:none;
+    border-top:1px solid rgb(0, 0, 0, 0.2);
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 0 30px 5px;
+}
+.friends-list__title span{
+    display: block;
+    font-size: 16px;
+}
+.friends-list__title i{
+    margin-right: 5px;
+}

@@ -1,0 +1,26 @@
+.suggestions{
+    border-top:1px solid rgb(0, 0, 0, 0.1);
+    margin-top:30px;
+}
+.suggestions h4{
+    margin-top: 30px;
+}
+.suggestions-icons{
+    display: flex;
+    margin-top: 25px;
+}
+.suggestions-icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15px;
+    margin-right: 20px;
+}
+.suggestions-icon-img{
+    background-color: var(--sponge-green);
+    padding:15px 15px;
+    border-radius: 10px;
+}
+.suggestions-title{
+    margin-top:10px;
+}

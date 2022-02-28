@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome - Sponge Talk</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span class="status-bar__service">No Service</span>
+            <i class="fa-solid fa-wifi fa-sm"></i>
+        </div>
+        <div class="status-bar__column">
+            <span class="status-bar__clock">18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span class="status-bar__battary">100%</span>
+            <i class="fa-solid fa-battery-full fa-lg"></i>
+            <i class="fa-solid fa-bolt fa-xs"></i>
+        </div>
+    </div>
+
+    <header class="welcome-title">
+        <img src="img/login1.png">
+        <h1>Welcome to SpongeTalk</h1>
+        <p>If you have a Sponge Account, log in with your email or phone number.</p>
+    </header>
+        <form class="login-form" action="friends.html">
+            <input type="text" class="login-form__input" placeholder="Email or Phone number">
+            <input type="password" class="login-form__input" placeholder="Password">
+            <input type="submit" class="login-form__button" value="Login">
+            <a href="#">Find Sponge Account or Password</a>
+        </form>
+        <div id="no-mobile">
+            <img src="img/login1.png">
+            <span>브라우저사이즈를 줄여주세요</span>
+          </div>
+    <script src="https://kit.fontawesome.com/22a1e389fd.js" crossorigin="anonymous"></script>
+</body>
+</html>

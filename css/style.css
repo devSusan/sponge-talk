@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
+
+@import "reset.css";
+@import "variables.css";
+
+@import "component/status-bar.css";
+@import "component/basic-header.css";
+@import "component/nav-bar.css";
+@import "component/user-component.css";
+@import "component/notification.css";
+@import "component/icons.css";
+@import "component/no-mobile.css";
+
+@import "screen/login.css";
+@import "screen/friends.css";
+@import "screen/find.css";
+@import "screen/more.css";
+@import "screen/settings.css";
+@import "screen/chat.css";
+
+@font-face {
+  font-family: "spongeboy";
+  src: url('font/SpongeboyRegular-gx2n6.otf');
+}
+body {
+    background-color: var(--sponge-blue);
+    color:var(--sponge-white);
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  .main-screen {
+    padding: 0px var(--horizontal-space);
+   
+  }

@@ -1,0 +1,17 @@
+.noti-btn--xl{
+    padding:7px 10px;
+    background-color: tomato;
+    border:none;
+    border-radius: 15px;
+    text-align: center;
+    font-weight: 600;
+    font-size:20px;
+}
+.noti-btn--sm{
+    padding:5px 8px;
+    background-color: tomato;
+    border:none;
+    border-radius: 15px;
+    text-align: center;
+    font-size:18px;
+}

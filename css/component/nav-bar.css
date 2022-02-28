@@ -1,0 +1,60 @@
+.nav-bar{
+    font-family: spongeboy,"나눔고딕", sans-serif;
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    padding:10px 0;
+    border-top:1px solid rgba(248, 246, 246, 0.3);
+    background-color: var(--sponge-blue);
+    
+}
+.nav-bar__ul{
+    display: flex;
+    justify-content: space-between;
+
+}
+.nav-bar__li{
+    width:25%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+.nav-bar__li img{
+    width:50%;
+    height:auto;
+    cursor: pointer;
+}
+.nav-bar__li span{
+    margin-top:5px;
+    font-size:11px;
+    letter-spacing: 1px;
+}
+
+.nav-alert{
+
+    position:absolute;
+    top:7px;
+    right:28px;
+    animation: alertAnimation 4s ease-in-out infinite;
+    
+}
+
+.icon_off{
+    opacity: 0.6;
+}
+
+@keyframes alertAnimation {
+    0% {
+      transform: none;
+    }
+    50% {
+      transform: translateY(-5px) rotateY(360deg);
+    }
+    100% {
+      transform: none;
+    }
+  }
